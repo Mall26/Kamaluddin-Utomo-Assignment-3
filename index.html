@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body background="Gambar/Background.jpeg" style="background-size: cover;">
+    <br>
+    <div class="container">
+        <h2 class="header"><b>PANGKALAN DATA COVID-19</b></h2>
+        <br>
+        <div class="inputan">
+            <input type="text" id="input" placeholder="Nama Negara" />
+            <button id="button">Cari Data</button>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="icon">
+                        <img src="./gambar/kasus_aktif.png" alt="" width="100px" height="100px">
+                        <h4  ><span class="keterangan">Kasus Aktif</span></h4>
+                        <h4 class="samadengan" id="active">0</h4>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="icon">
+                        <img src="./gambar/kasus-baru.png" alt="" width="100px" height="100px">
+                        <h4 ><span class="keterangan">Kasus Baru</span></h4>
+                        <h4 class="samadengan" id="new">0</h4>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="icon">
+                        <img src="./gambar/sembuh.png" alt="" width="100px" height="100px">
+                        <h4 ><span class="keterangan">Sembuh</span></h4>
+                        <h4 class="samadengan"  id="recovered">0</h4>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="icon">
+                        <img src="./gambar/total_kasus.png" alt="" width="100px" height="100px">
+                        <h4 ><span class="keterangan">Total Kasus</span></h4>
+                        <h4 class="samadengan" id="cases">0</h4>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="icon">
+                        <img src="./gambar/kematian.png" alt="" width="100px" height="100px">
+                        <h4 ><span class="keterangan">Total Kematian</span></h4>
+                        <h4 class="samadengan" id="death">0</h4>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="icon">
+                        <img src="./gambar/total_tes.png" alt="" width="100px" height="100px">
+                        <h4 ><span class="keterangan">Total Tes</span></h4>
+                        <h4 class="samadengan" id="tests">0</h4>
+                    </div>
+                    <br> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <script src="main.js"></script>
+</body>
+</html>
